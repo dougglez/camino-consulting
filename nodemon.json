@@ -1,0 +1,11 @@
+{
+  "watch": [
+    "index.*",
+    "assets/css/*",
+    "*.html"
+  ],
+  "ignore": [
+    ".gitignore",
+    ".gitattributes"
+  ]
+}
