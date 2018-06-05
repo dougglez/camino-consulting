@@ -90,8 +90,8 @@ p{
 }
 
 .libre-text{
-	font-family: "Cantarell", "Times New Roman",
-	sans-serif; font-size: 15px;
+	/* font-family: "Cantarell", "Times New Roman", */
+	/* sans-serif; font-size: 15px; */
 }
 
 @media only screen and (max-width : 480px){
@@ -125,7 +125,7 @@ p{
 }
 
 .uppercase{
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 ul.social-icons li a:hover{
@@ -159,7 +159,7 @@ ul.social-icons li a:hover{
 	margin-bottom:1px;
 	font-size:17px;
 	letter-spacing: 1px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 #diagram {
@@ -404,7 +404,7 @@ a{
 .module-title-large{
 		font-size: 60px;
 		font-weight: 400 !important;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
     letter-spacing: 10px;
     text-align: center;
     margin-bottom: 35px;
@@ -415,7 +415,7 @@ a{
  	.module-title-large{
     	font-size: 25px;
     	font-weight: 400 !important;
-    	text-transform: uppercase;
+    	/* text-transform: uppercase; */
     	text-align: center;
     	margin-bottom: 0px;
     	margin-top: 0px;
@@ -457,7 +457,7 @@ a{
 }
 
 .section-title h2{
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	letter-spacing: 10px;
 	color:#000;
 	font-size: 25px;
@@ -465,7 +465,7 @@ a{
 }
 
 .section-title-parralax h2{
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		letter-spacing: 10px;
 		color: #000;
 		font-size: 40px;
@@ -542,7 +542,7 @@ ul.tags li a{
 	background-color: #e5e5e5;
 	padding: 0 15px;
 	font-size: 12px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 ul.tags li a:hover{
 	background-color: #f2f2f2;
