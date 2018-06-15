@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="author" content="Doug Maxfield">
-	<meta name="description" content="Camino is a high tech salesforce consulting firm">
+	<meta name="description" content="Camino is a diverse Salesforce community">
 
 	<link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
@@ -27,6 +27,7 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- STYLES -->
+	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/flexslider.css">
 	<link rel="stylesheet" href="assets/css/animsition.min.css">
@@ -47,11 +48,12 @@
 	<span class="frame-line left-frame visible-lg"></span>
 	<!-- HEADER  -->
 	<header class="main-header">
-		<div class="container-fluid">
+		<!-- <div class="container-fluid"> -->
+		<div class="">
 				<!-- box header -->
 				<div class="box-header">
 						<div class="box-logo">
-								<a href="index.html"><img src="assets/img/Camino_Logo.png" width="80" alt="Logo"></a>
+								<!-- <a href="index.html"><img src="" width="80" alt="Logo"></a> -->
 						</div>
 						<!-- box-nav -->
 						<a class="box-primary-nav-trigger" href="#0">
@@ -85,11 +87,11 @@
 				<section class="box-intro bg-film">
 						<div class="table-cell">
 
-							<h1>CAMINO</h1>
+							<h1 class="title_bold main-title"><span class="title_super">C</span>amino</h1>
 								<h3 class="box-headline letters rotate-2">
 										<span class="box-words-wrapper">
-												<b class="is-visible">CLEAN &nbsp;&amp;&nbsp; CREATIVE.</b>
-												<b>&nbsp;SIMPLE &nbsp;&amp;&nbsp; POWERFUL.</b>
+												<b class="is-visible">Good &nbsp; Together.</b>
+												<b>&nbsp;Good &nbsp; Together.</b>
 										</span>
 								</h3>
 
@@ -110,8 +112,12 @@
 				<div class="col-md-8 col-md-offset-2">
 					<img src="assets/img/about.png" alt="Khaki HTML Template" width="300">
 					<div class="km-space"></div>
-					<h5 class="lead">Contact a member of our sales team.</h5>
-
+					<h5 class="lead"><div class="cta-div" onclick="web2lead('stuff')">Contact</div> a member of our sales team.</h5>
+<script>
+	function web2lead(param) {
+		console.log(param);
+	}
+</script>
 					<!-- Contact a member of our sales team -->
 				</div>
 			</div><!-- description text -->

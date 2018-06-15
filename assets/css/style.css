@@ -29,12 +29,7 @@ theme.
 
 */
 @import url(https://fonts.googleapis.com/css?family=Josefina+Sans);
-@import url(https://fonts.googleapis.com/css?family=Work+Sans);
-@import 'https://fonts.googleapis.com/css?family=Muli';
 @import 'https://fonts.googleapis.com/css?family=Pacifico';
-@import 'https://fonts.googleapis.com/css?family=Vibur';
-
-
 
 /* --------------------------------
 
@@ -44,20 +39,60 @@ theme.
 
 
 *{
-	outline:0;padding: 0;margin:0;
+    outline:0;
+    padding: 0;
+    margin:0;
 	-webkit-box-sizing:border-box;
-	        box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 body{
 
-		background: #fff;
-		color:#777;
-    font:400 14px/1.8 'Josefina Sans', sans-serif;
-		-webkit-font-smoothing: antialiased;
+    background: #fff;
+    color:#777;
+    font:500 18px/1.8 'Josefina Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
 }
+
+
+.title_bold {
+    font: bold 70px 'Pacifico';
+    text-transform: uppercase;
+}
+
+.title_super {
+    font: bold 68px 'Pacifico';
+    text-transform: uppercase;
+}
+
+.title {
+    font: 26px 'Pacifico';
+    text-transform: uppercase;
+}
+
+.cta-div {
+    display: inline-block;
+    /* transition: background .5s ease-in-out;  */
+    background: transparent;
+    border-radius: 5px;
+    border-top: 2px solid #f8d303;
+    border-bottom: 2px solid #f8d303;
+}
+
+/* .cta-div:hover {
+    background: #f8d303;
+    animation-delay: 5000ms;
+} */
+
+.cta-div:hover  {
+    transition: background .5s ease-in-out;
+    transition: padding .5s ease-in-out;
+    padding: 8px 8px 5px 5px;
+    background: #f8d303;
+}
+
 
 /* #####  text  ##### */
 
@@ -86,7 +121,7 @@ p{
 
 .lead{
 	color: #000;
-	font-size: 20px;
+	font-size: 26px;
 }
 
 .libre-text{
@@ -647,7 +682,7 @@ ul.tags li a:hover{
 
 /* frames */
 
-.frame-line {
+/* .frame-line {
     position: fixed;
     left: 0;
     right: 0;
@@ -678,13 +713,13 @@ ul.tags li a:hover{
 .frame-line.top-frame {
     height: 30px;
     top: 0;
-}
+} */
 
 /* header */
 
 .box-header {
     position: absolute;
-    top: 0;
+    top: -500px;
     left: 0;
     height: 50px;
     width: 100%;
@@ -713,7 +748,7 @@ ul.tags li a:hover{
 .box-header.is-fixed {
     position: fixed;
     top: -50px;
-    background-color: rgba(255, 255, 255, 0.96);
+    /* background-color: rgba(255, 255, 255, 0.96); */
     -webkit-transition: -webkit-transform 0.3s;
     transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
@@ -726,7 +761,7 @@ ul.tags li a:hover{
 }
 
 .box-header.menu-is-open {
-    background-color: rgba(255, 255, 255, 0.96);
+    /* background-color: rgba(255, 255, 255, 0.96); */
 }
 
 .box-logo {
@@ -884,6 +919,7 @@ ul.tags li a:hover{
     font-weight: 700;
     font-size: 17px;
     margin: 2.4em 0 .8em;
+
 }
 
 .box-primary-nav .box-social {
@@ -920,7 +956,8 @@ ul.tags li a:hover{
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/header.jpg);
+    /* background-image: url(../img/hero.jpg); */
+    background-image: url(../img/hero-min.jpg);
 		background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
@@ -944,6 +981,7 @@ ul.tags li a:hover{
 .box-intro .table-cell {
     display: table-cell;
     vertical-align: middle;
+    padding-bottom: 8px;
 }
 
 .box-intro em {
