@@ -65,7 +65,7 @@ body{
 .title_bold {
     font-family: 'Grand Hotel';
     font-size: 5em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 /* .title_super {
@@ -75,12 +75,12 @@ body{
 
 .title {
     font: 26px 'Grand Hotel';
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .title-small {
     font: 26px 'Grand Hotel';
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .cta-div {
