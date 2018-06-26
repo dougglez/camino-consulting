@@ -79,6 +79,11 @@ body{
     color: #333;
 }
 
+.section-title .title_medium {
+    font: 40px 'Grand Hotel';
+    color: #333;
+    font-weight: 700;
+}
 
 .title {
     font: 26px 'Grand Hotel';
@@ -131,6 +136,23 @@ body{
     background: #f8d303;
 }
 
+.service_icons {
+    /* margin-left: 50px; */
+}
+
+
+
+.portfolio .container .service_icons_wrapper {
+    margin-left: 75px;
+    
+}
+
+.portfolio .container {
+    /* margin-left: 100px; */
+    /* width: 80%; */
+    /* background: red; */
+
+}
 
 /* #####  text  ##### */
 
@@ -1610,7 +1632,7 @@ footer a:hover {
 -------------------------------- */
 
 .portfolio h2{
-		text-transform: uppercase;
+      /* text-transform: uppercase; */
 	  letter-spacing: 5px;
 	  color: #000;
 	  font-size: 40px;
@@ -1645,42 +1667,11 @@ footer a:hover {
 		width: 100%;
 }
 
-.portfolio .categories-grid .categories ul li{
-		list-style: none;
-		margin: 20px 0;
-}
-
-.portfolio .categories-grid .categories ul li a{
-    display: inline-block;
-    text-transform: uppercase;
-    color: #777;
-    margin-left: 20px;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.portfolio .categories-grid .categories ul li a.active{
-    margin-left: 0;
-    padding: 0 10px;
-    color: #000;
-		font-weight: 700;
-}
-
-
-@media (max-width: 992px) {
-	.portfolio .categories-grid span{margin-bottom: 0;text-align:center;width:100%;}
-	.portfolio .categories-grid .categories ul li{
-		text-align: center;
-	}
-	.portfolio .categories-grid .categories ul li a{
-		margin-left: 0;
-	}
-}
-
 .portfolio_item{
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
+    margin-left: 70px;
 	display: inline-block;
 }
 
