@@ -74,10 +74,10 @@ body{
     height: 130px;
 }
 
-/* .title_super {
-    font: bold 90px 'Grand Hotel';
-    text-transform: uppercase;
-} */
+.title_medium {
+    font: 40px 'Grand Hotel';
+    color: #333;
+}
 
 
 .title {
@@ -158,7 +158,7 @@ p{
 }
 
 .lead{
-	color: #000;
+	/* color: #000; */
 	font-size: 26px;
 }
 
@@ -467,7 +467,7 @@ a{
 
 .module-subtitle {
     text-transform: none !important;
-    color: #000;
+    /* color: #000; */
     /* font-family: "Cantarell", "Times New Roman", sans-serif; */
     font-family: 'Josefina Sans';
     text-align: center;
@@ -541,7 +541,7 @@ a{
 .section-title-parralax h2{
 		/* text-transform: uppercase; */
 		letter-spacing: 10px;
-		color: #000;
+		/* color: #000; */
 		font-size: 40px;
 		font-weight: 700;
 		margin-top: -145px;
@@ -1509,7 +1509,7 @@ footer a:hover {
 
 .count-name-intro{
 		font-size: 20px;
-		color: #000;
+		/* color: #000; */
 		letter-spacing: 2px;
 }
 
@@ -1578,7 +1578,7 @@ footer a:hover {
 .services h2{
 		text-transform: uppercase;
 	  letter-spacing: 5px;
-	  color: #000;
+	  /* color: #000; */
 	  font-size: 40px;
 	  font-weight: 700;
 	  margin-top: -145px;
@@ -1594,13 +1594,13 @@ footer a:hover {
     font-weight: 700;
     font-size: 15px;
     line-height: 2;
-    color: #000;
+    /* color: #000; */
 }
 
 .services i {
     display: block;
     font-size: 50px;
-    color: #000;
+    /* color: #000; */
 }
 
 /* --------------------------------
@@ -1715,7 +1715,7 @@ footer a:hover {
 		font-family: 'Cantarell', sans-serif;
 		font-weight: 400;
 		text-transform: uppercase;
-		color:#000;
+		/* color:#000; */
 		font-size: 20px;
 		-webkit-transform:translateY(20px);
 	    -ms-transform:translateY(20px);
@@ -1796,7 +1796,28 @@ footer a:hover {
 .member-thumb {
     overflow: hidden;
     position: relative;
+    /* height: 25%;
+    width: 90%; */
+    max-width: 360px;
+    max-height: 360px;
 }
+
+.member-thumb .first-child{
+    /* width: 100%; */
+}
+
+.deliver-value {
+
+}
+
+.inclusion {
+    width: 95%;
+}
+
+.give-back {
+    width: 95%;
+}
+
 
 .team-member span {
     font-size: 13px;
@@ -1817,13 +1838,12 @@ footer a:hover {
 
 .member-thumb .overlay p {
     font-size: 15px;
-    color: #777;
-    opacity: .5;
+    color: #222;
+    /* opacity: .5; */
     font-weight: 400;
 }
 
 .member-thumb .overlay {
-    padding: 100px 0;
     line-height: 24px;
 }
 
@@ -1864,7 +1884,7 @@ footer a:hover {
 
 .social-links a:hover {
     text-decoration: none;
-    color: #000;
+    /* color: #000; */
 }
 
 .cover {
@@ -1907,7 +1927,7 @@ footer a:hover {
 .pricing h2{
 		text-transform: uppercase;
 	  letter-spacing: 5px;
-	  color: #000;
+	  /* color: #000; */
 	  font-size: 40px;
 	  font-weight: 700;
 	  margin-top: -145px;
@@ -1915,7 +1935,7 @@ footer a:hover {
 }
 
 .plan_price .numscroller{
-	color: #000;
+	/* color: #000; */
 }
 
 .pricing_plan {
@@ -1931,7 +1951,7 @@ footer a:hover {
 .plan_price .numscroller {
     letter-spacing: 1px;
     font-size: 50px;
-    color: #000;
+    /* color: #000; */
 		padding: 35px;
 }
 
@@ -1949,7 +1969,7 @@ footer a:hover {
 
 .list strong{
 	margin-right: 5px;
-	color:#000;
+	/* color:#000; */
 }
 
 @media only screen and (max-width : 480px){
@@ -2056,7 +2076,7 @@ footer a:hover {
 .contact {
 		background-color: #fff;
     padding: 100px 0 50px 0;
-    color: #000;
+    /* color: #000; */
 }
 
 .contact .bottom-right-separator{
@@ -2065,7 +2085,7 @@ footer a:hover {
 }
 
 .contact h4{
-		color: #000;
+		/* color: #000; */
     text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 10px;
@@ -2165,7 +2185,7 @@ footer a:hover {
 #facts h2{
 		text-transform: uppercase;
 		letter-spacing: 10px;
-		color: #000;
+		/* color: #000; */
 		font-size: 25px;
 		font-weight: 400;
 }
@@ -2376,7 +2396,7 @@ ul.services-list li{
 		display: inline-block;
 		font-size: 50px;
 		position: relative;
-		color: #000;
+		/* color: #000; */
 }
 
 .benefits_1_single h6{
@@ -2432,7 +2452,7 @@ ul.services-list li{
 }
 
 .detail h3 {
-    color: #000;
+    /* color: #000; */
     font-weight: 700;
     font-size: 15px;
     text-transform: uppercase;
@@ -2471,7 +2491,7 @@ ul.services-list li{
     box-shadow: none;
     background: transparent;
     border-bottom: 1px solid #ddd;
-    color: #000;
+    /* color: #000; */
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 300;
@@ -2488,7 +2508,7 @@ ul.services-list li{
     box-shadow: none;
     background: transparent;
     border-bottom: 1px solid #ddd;
-    color: #000;
+    /* color: #000; */
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 300;
@@ -2504,7 +2524,7 @@ ul.services-list li{
     box-shadow: none;
     background: transparent;
     border-bottom: 1px solid #ddd;
-    color: #000;
+    /* color: #000; */
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 300
@@ -2520,7 +2540,7 @@ ul.services-list li{
     box-shadow: none;
     background: transparent;
     border-bottom: 1px solid #ddd;
-    color: #000;
+    /* color: #000; */
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 300;
