@@ -457,7 +457,7 @@ a{
 }
 
 .section-title h2{
-	/* text-transform: uppercase; */
+	text-transform: uppercase;
 	letter-spacing: 10px;
 	color:#000;
 	font-size: 25px;
@@ -465,7 +465,7 @@ a{
 }
 
 .section-title-parralax h2{
-		/* text-transform: uppercase; */
+		text-transform: uppercase;
 		letter-spacing: 10px;
 		color: #000;
 		font-size: 40px;
@@ -1729,7 +1729,7 @@ footer a:hover {
 .member-thumb .overlay h6 {
 		font-size: 15px;
 		line-height: 24px;
-		margin-top: 50%;
+		margin-top: 2%;
 		text-transform: uppercase;
 		color: #333;
 		font-weight: 700;
